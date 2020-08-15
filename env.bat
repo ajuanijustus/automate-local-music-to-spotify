@@ -1,0 +1,4 @@
+SET SPOTIFY_AUTH_TOKEN=BQAVwEd0caQBvA_Jq5LbEF-9gbLg4EoLrMxPqF95lldJboX4AQC5IdVzeP7yvF339fBjPl5PzmVAQhv6tqx-PhBR9PI8OTUc2IbuJqlcZmDkKNrg0rOFj8PWkYWV5xu_xBr5O1jfvJNE3Oud22RAojs4SGVaQOpjJbIu5ES5Ki-Y42A3paQFWFGYyBL98q2SkaU
+SET DIR_MUSIC=C:\\Users\\Aju\\Music\\Music
+SET PLAYLIST_ID=2MplKvHDrLfoo9zngH7T2z
+python -W ignore local_music_to_spotify.py
