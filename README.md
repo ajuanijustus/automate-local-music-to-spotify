@@ -39,3 +39,7 @@ For this project, you will need __Python__ installed on your system.
     
 ## Troubleshooting
 Spotify Oauth token expires ver quickly (in an hour), so if you come across a `KeyError` this could be caused by an expired token. So just refer back to step 2 in local setup, and generate a new token.
+
+## Testing
+I tested the code on my Spotify Account ([ajuanijustus](https://open.spotify.com/user/5m6qysxxgn7vz6uhrzolm6dto?si=C7f83x0sR5CzsqwyCWFSLA)), in [this playlist](https://open.spotify.com/playlist/2MplKvHDrLfoo9zngH7T2z?si=XHJTYDyMQwyOFxSqiJZjBw). 
+![test_success](readme-images/success.png)
