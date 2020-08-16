@@ -27,6 +27,7 @@ class SpotifyClient(object):
             pass
 
     def add_song_to_spotify(self, song_id, playlist_id):
+        # you might need to include your username in the url if there are any issue with the oauth
         url = "https://api.spotify.com/v1/playlists/" + playlist_id + "/tracks"
         song_id = 'spotify:track:' + song_id
         uris = [song_id]

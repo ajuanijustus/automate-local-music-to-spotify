@@ -24,6 +24,7 @@ def run():
     main_music_folder = os.getenv('DIR_MUSIC')
     playlist_id = os.getenv('PLAYLIST_ID')
 
+    # searches and finds all mp3s in the file struture of the given dir
     os.chdir(main_music_folder)
     song_list = []
     for root, dirs, files in os.walk(main_music_folder, topdown=True):
@@ -31,6 +32,7 @@ def run():
             if name.endswith('.mp3'):
                 song_list.append(os.path.join(root, name))
 
+    # temp: will remove the usage of pandas
     songs = pd.DataFrame(song_list, columns=['path'])
     songs['song_info'] = songs['path'].apply(lambda x: song_info(x))
     songs[['artist', 'track']] = songs['song_info'].apply(pd.Series)
