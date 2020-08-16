@@ -1,4 +1,4 @@
-# Automate Local Music Library to Spotify
+# Automate Moving Music from Local Library to Spotify
 Automating extraction of metadata from mp3 files in a desired file directory, finding the songs on Spotify and adding all the songs into a Spotify playlist of choice.
 
 ## Table of Contents
