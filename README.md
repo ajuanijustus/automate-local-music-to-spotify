@@ -26,7 +26,7 @@ For this project, you will need __Python__ installed on your system.
 ## Local Setup
 1. Install the dependencies.  
     `pip install -r requirements.txt`
-2. Collect your Spotify User ID, Playlist URI and Oauth Token From Spotify and add it to the env.bat file.
+2. Collect your Spotify User ID, Playlist URI and Oauth Token From Spotify and __add it to the run.bat file__ along with the directory of the folder with the nusic.
     * To get your Spotify User ID, visit [Spotify Account Overview](https://www.spotify.com/in/account/overview/):
     ![user_id](readme-images/user_id.png)
     * To get your Playlist ID, copy Spotify URI as in the screenshot:
