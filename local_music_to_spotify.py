@@ -30,6 +30,7 @@ def run():
         for name in files:
             if name.endswith('.mp3'):
                 song_list.append(os.path.join(root, name))
+
     songs = pd.DataFrame(song_list, columns=['path'])
     songs['song_info'] = songs['path'].apply(lambda x: song_info(x))
     songs[['artist', 'track']] = songs['song_info'].apply(pd.Series)
