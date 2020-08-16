@@ -24,8 +24,8 @@ For this project, you will need __Python__ installed on your system.
 3. Path to directory.
   
 ## Local Setup
-1. Install the dependencies.
-    ```pip install -r requirements.txt```
+1. Install the dependencies.  
+    `pip install -r requirements.txt`
 2. Collect your Spotify User ID, Playlist URI and Oauth Token From Spotify and add it to the env.bat file.
     * To get your Spotify User ID, visit [Spotify Account Overview](https://www.spotify.com/in/account/overview/):
     ![user_id](readme-images/user_id.png)
@@ -34,7 +34,7 @@ For this project, you will need __Python__ installed on your system.
     The Spotify URI will be in the format: spotify:playlist:2MplKvHDhfgoo9zngH7T2z, the playlist_id that you'll need is the last alphanum part: 2MplKvHDhfgoo9zngH7T2z.
     * To get your Oauth Token, visit this page: [Get Oauth](https://developer.spotify.com/console/post-playlist-tracks/) and click the Get Token button:
     ![oauth](readme-images/oauth.png)
-3. Run the run.bat file in your terminal:
+3. Run the run.bat file in your terminal:  
     `run.bat`
     
 ## Troubleshooting
